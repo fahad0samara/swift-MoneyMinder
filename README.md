@@ -16,6 +16,11 @@ Currency Tracker is a powerful and user-friendly app designed to keep you inform
   
 - **Detailed Currency Information:** Dive deeper into each currency with comprehensive details including symbols, names, and exchange rates.
 
+  ### Screenshots:
+| Get Started | Currency Detail | Home Screen| Some View |
+|-------------|-----------------|-------------|-----------|
+| ![Home Screen](https://github.com/fahad0samara/swift-MoneyMinder/assets/90055525/19ce3c49-3944-4a1e-a486-7fcfa6da62ef)   | ![Get Started](https://github.com/fahad0samara/swift-MoneyMinder/assets/90055525/7c8c2fb0-eaf7-4696-b845-5d99c27f2c1b) | ![Some View](https://github.com/fahad0samara/swift-MoneyMinder/assets/90055525/fb7906f6-72b1-4318-b4bd-5a14db6acbc4) | ![Currency Detail](https://github.com/fahad0samara/swift-MoneyMinder/assets/90055525/7fc2fe11-74ad-47f7-9fc2-59190fb262ce)
+
 ### MVVM Architecture:
 
 Currency Tracker follows the MVVM architecture pattern, which separates the application into three layers:
@@ -38,7 +43,6 @@ Currency Tracker follows the MVVM architecture pattern, which separates the appl
   
 - **Unit Testing:** Includes unit tests to verify the correctness of ViewModel logic and ensure proper behavior under different scenarios.
 
-### Screenshots:
 
 
 
