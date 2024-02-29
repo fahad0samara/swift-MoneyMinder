@@ -8,11 +8,40 @@
 import SwiftUI
 
 struct CurrencyDetailView: View {
+    let currency: Currency
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text(currency.code)
+                .font(.title)
+                .fontWeight(.bold)
+            
+            Text(currency.name)
+                .font(.headline)
+                .foregroundColor(.secondary)
+            
+            Divider()
+            
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Rate")
+                    .font(.headline)
+                Text("\(currency.rate, specifier: "%.4f")")
+                    .font(.subheadline)
+            }
+            .foregroundColor(.secondary)
+            
+            VStack(alignment: .leading, spacing: 10) {
+                Text("Symbol")
+                    .font(.headline)
+                Text(currency.symbol)
+                    .font(.subheadline)
+            }
+            .foregroundColor(.secondary)
+            
+            Spacer()
+        }
+        .padding()
     }
 }
 
-#Preview {
-    CurrencyDetailView()
-}
+
